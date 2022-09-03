@@ -9,7 +9,8 @@ const Search = () => {
 
     const search = (e) => {
         e.preventDefault();
-        navigate.push("/search");
+        console.log('hellos');
+        navigate("/search");
     }
 
     return (
@@ -18,12 +19,13 @@ const Search = () => {
                 <input type="text"
                     id='input'
                     value={searchVal}
+                    placeholder='Search'
                     onChange={(e) => {
                         setSearchVal(e.target.value);
                     }
                     } />
             </div>
-            <button onClick={search} className='btn'>
+            <button onClick={search} type='submit' className='btn'>
                 <SearchRoundedIcon fontSize='large' />
             </button>
         </form>
