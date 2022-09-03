@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Search from '../components/Search';
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
                 header
             </div>
             <div className='body'>
+                <Search />
             </div>
         </>
     );
