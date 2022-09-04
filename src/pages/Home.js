@@ -5,8 +5,8 @@ import Search from '../components/Search';
 const Home = () => {
     return (
         <>
-            <div className='header'>
-                header
+            <div className='App-header'>
+                Search Engine
             </div>
             <div className='body'>
                 <Search />

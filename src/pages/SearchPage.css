@@ -45,6 +45,7 @@
 }
 
 .searchPage__resultLink {
+    padding-left: 1rem;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -71,9 +72,11 @@
 
 .searchPage__result {
     margin: 40px 0;
+    width: 40rem;
 }
 
-.searchPage__resultCount {
+.searchPage__resultCount {   
+    margin: 1px;
     color: #70757a;
     font-size: 14px;
 }
@@ -86,6 +89,7 @@
 }
 
 .searchPage__resultTitle {
+    text-align: left;
     text-decoration: none;
 }
 
@@ -94,12 +98,17 @@
 }
 
 .searchPage__resultTitle>h2 {
+    margin: 0;
+    margin-top: 1rem;
+    padding-left: 1.2rem;
     font-weight: 400;
     color: #1a0dab;
 }
 
 .searchPage__resultSnippet {
-    margin-top: 10px;
+    margin: 0px;
+    padding-left: 1.2rem;
+    text-align: left;
 }
 
 @media screen and (max-width: 750px) {
